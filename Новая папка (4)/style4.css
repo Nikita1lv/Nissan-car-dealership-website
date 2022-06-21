@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    width:98%;
+}
+
+
+.master{
+    
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    display: space-between;
+}
+div.scrollmenu {
+    background-color:DarkGrey;
+    box-shadow: 10px 5px 5px Gray;
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.products__list{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+}
+
+div.scrollmenu a:hover {
+    transition: 0.6s;
+    background-color:Gray;
+}
+		body {
+			background:White;
+			background-size: 100%;
+		}
+		  p {
+             color:Gray
+		 }
+		  h1 {
+             color:Gray
+		 }
+		  h2 {
+            margin-top: 35px;
+             color:Gray
+		 }
+		  h3 {
+             color:Gray
+		 }
+		 .button {
+    background-color:DarkGrey;
+    width: 50%;
+    box-shadow: 10px 5px 5px Gray;
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 320px;
+}
+}
+.button {
+   text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 2000px) { 
+.container2 {
+    width: 90%;
+ } 
+}
+
+@media screen and (max-width: 1000px) { 
+div.scrollmenu {
+    background-color:DarkGrey;
+    box-shadow: 10px 5px 5px Gray;
+    overflow: auto;
+    width: 107%;
+    white-space: nowrap;
+ }
+div.scrollmenu a:hover {
+    background-color:Gray;
+}
+
+
+@media screen and (max-width: 2000px) { 
+.master{
+    
+    overflow: hidden;
+ }
+.car_4 {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+img {
+	width:100%;
+	height: auto;
+}
